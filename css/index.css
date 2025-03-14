@@ -242,7 +242,7 @@
 }
 
 .archive h2 {
-    /* border: 1px solid red; */
+  /* border: 1px solid red; */
   width: 550px;
   height: 120px;
   text-align: center;
@@ -254,6 +254,53 @@
   letter-spacing: -4%;
   text-align: center;
   text-transform: uppercase;
-  color: #2C2C2C;
+  color: #2c2c2c;
+}
 
+.archive-cards {
+  margin: 0 auto;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 1024px;
+  height: 821px;
+  border: 1px solid red;
+}
+.card {
+  width: 500px;
+  height: 320px;
+  background-color: #ededed;
+  border-radius: 30px;
+  padding: 48px;
+  margin-bottom: 24px;
+}
+
+.card img {
+  margin-bottom: 32px;
+  width: 51px;
+  height: 51px;
+}
+
+.card h4 {
+  margin-bottom: 16px;
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.card p {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 2%;
+  color:#7A7A7A;
+}
+
+.card-3{
+    margin-top: 156px;
 }
